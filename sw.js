@@ -29,8 +29,8 @@ const CACHE = "PWAMD-Los Indestructibles"
 const ARCHIVOS = [
  "ayuda.html",
  "favicon.ico",
- "index.html",
- "site.webmanifest",
+ "./index.html",
+ "./site.webmanifest",
  "css/dark-hc.css",
  "css/dark-mc.css",
  "css/dark.css",
@@ -40,17 +40,17 @@ const ARCHIVOS = [
  "css/light.css",
  "css/transicion_completa.css",
  "css/transicion_pestanas.css",
- "img/icono2048.png",
- "img/maskable_icon.png",
- "img/maskable_icon_x128.png",
- "img/maskable_icon_x192.png",
- "img/maskable_icon_x384.png",
- "img/maskable_icon_x48.png",
- "img/maskable_icon_x512.png",
- "img/maskable_icon_x72.png",
- "img/maskable_icon_x96.png",
- "img/screenshot_horizontal.png",
- "img/screenshot_vertical.png",
+ "./img/icono2048.png",
+ "./img/maskable_icon.png",
+ "./img/maskable_icon_x128.png",
+ "./img/maskable_icon_x192.png",
+ "./img/maskable_icon_x384.png",
+ "./img/maskable_icon_x48.png",
+ "./img/maskable_icon_x512.png",
+ "./img/maskable_icon_x72.png",
+ "./img/maskable_icon_x96.png",
+ "./img/screenshot_horizontal.png",
+ "./img/screenshot_vertical.png",
  "js/configura.js",
  "js/nav-bar.js",
  "js/nav-drw.js",
@@ -163,4 +163,5 @@ async function buscaLaRespuestaEnElCache(evt) {
   // Si la encuentra, devuelve la respuesta encontrada en el caché.
   return response
  }
+
 }
