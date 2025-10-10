@@ -1,10 +1,11 @@
 /* Selecciona el tema claro para Material Design 3. Puedes elegir
  * light.css, light-mc.css o light-hc.css */
+/* Theme (material-tokens está en la raíz del proyecto) */
 @import url(../material-tokens/css/theme/light.css) screen and (prefers-color-scheme: light);
 @import url(../material-tokens/css/theme/dark.css) screen and (prefers-color-scheme: dark);
 @import url(../material-tokens/css/theme/baseline.css);
 
-/* Archivos dentro de lib/css */
+/* Librería Material (está en /lib/css) */
 @import url(../lib/css/roboto.css);
 @import url(../lib/css/material-symbols-outlined.css);
 @import url(../lib/css/md-ripple.css);
@@ -22,6 +23,7 @@
 @import url(../lib/css/md-cards.css);
 @import url(../lib/css/md-tab.css);
 @import url(../lib/css/md-navigation-bar.css);
+
 html {
  /* Indica los temas del sistema operativo que son soportados. */
  color-scheme: light dark;
@@ -148,5 +150,6 @@ a {
  }
 
 }
+
 
 
