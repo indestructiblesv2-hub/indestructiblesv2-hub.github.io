@@ -2,30 +2,24 @@
  * light.css, light-mc.css o light-hc.css */
 @import url(theme/light.css) screen and (prefers-color-scheme: light);
 @import url(theme/dark.css) screen and (prefers-color-scheme: dark);
-
-/* Definiciones base de Material Design 3 */
-@import url(../material-tokens/css/baseline.css);
-
-/* Fuentes y símbolos */
-@import url(../lib/css/roboto.css);
-@import url(../lib/css/material-symbols-outlined.css);
-
-/* Componentes Material Design */
-@import url(../lib/css/md-ripple.css);
-@import url(../lib/css/md-top-app-bar.css);
-@import url(../lib/css/md-menu.css);
-@import url(../lib/css/md-standard-icon-button.css);
-@import url(../lib/css/md-fab-primary.css);
-@import url(../lib/css/md-filled-button.css);
-@import url(../lib/css/md-filled-text-field.css);
-@import url(../lib/css/md-outline-button.css);
-@import url(../lib/css/md-switch.css);
-@import url(../lib/css/md-slider-field.css);
-@import url(../lib/css/md-segmented-button.css);
-@import url(../lib/css/md-list.css);
-@import url(../lib/css/md-cards.css);
-@import url(../lib/css/md-tab.css);
-@import url(../lib/css/md-navigation-bar.css);
+@import url(material-tokens/css/baseline.css);
+@import url(lib/css/roboto.css);
+@import url(lib/css/material-symbols-outlined.css);
+@import url(lib/css/md-ripple.css);
+@import url(lib/css/md-top-app-bar.css);
+@import url(lib/css/md-menu.css);
+@import url(lib/css/md-standard-icon-button.css);
+@import url(lib/css/md-fab-primary.css);
+@import url(lib/css/md-filled-button.css);
+@import url(lib/css/md-filled-text-field.css);
+@import url(lib/css/md-outline-button.css);
+@import url(lib/css/md-switch.css);
+@import url(lib/css/md-slider-field.css);
+@import url(lib/css/md-segmented-button.css);
+@import url(lib/css/md-list.css);
+@import url(lib/css/md-cards.css);
+@import url(lib/css/md-tab.css);
+@import url(lib/css/md-navigation-bar.css);
 html {
  /* Indica los temas del sistema operativo que son soportados. */
  color-scheme: light dark;
@@ -152,3 +146,4 @@ a {
  }
 
 }
+
