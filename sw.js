@@ -165,5 +165,3 @@ async function buscaLaRespuestaEnElCache(evt) {
  }
 
 }
-
-
