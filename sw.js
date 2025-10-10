@@ -74,10 +74,6 @@ const ARCHIVOS = [
  "lib/css/md-tab.css",
  "lib/css/md-top-app-bar.css",
  "lib/css/roboto.css",
- "lib/fonts/MaterialSymbolsOutlinedFILL-GRAD-opsz-wght.codepoints",
- "lib/fonts/MaterialSymbolsOutlined-FILL-GRAD-opsz-wght.ttf",
- "lib/fonts/MaterialSymbolsOutlinedFILL-GRAD-opsz-wght.woff2",
- "lib/fonts/roboto-v32-latin-regular.woff2",
  "lib/js/abreElementoHtml.js",
  "lib/js/cierraElementoHtmo.js",
  "lib/js/exportaAHtml.js",
@@ -165,3 +161,4 @@ async function buscaLaRespuestaEnElCache(evt) {
  }
 
 }
+
