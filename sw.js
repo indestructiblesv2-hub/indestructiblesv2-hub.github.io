@@ -29,7 +29,7 @@ const CACHE = "PWAMD-Los Indestructibles"
 const ARCHIVOS = [
  "ayuda.html",
  "favicon.ico",
- "./index.html",
+ "index.html",
  "./site.webmanifest",
  "css/dark-hc.css",
  "css/dark-mc.css",
@@ -165,4 +165,5 @@ async function buscaLaRespuestaEnElCache(evt) {
  }
 
 }
+
 
