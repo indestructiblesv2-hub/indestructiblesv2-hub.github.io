@@ -37,14 +37,14 @@ const ARCHIVOS = [
  "css/estilos.css",
  "css/light-hc.css",
  "css/light-mc.css",
- "css/light.css",
+ "./css/light.css",
  "css/transicion_completa.css",
  "css/transicion_pestanas.css",
  "./img/icono2048.png",
- "./img/maskable_icon.png",
+ "img/maskable_icon.png",
  "./img/maskable_icon_x128.png",
  "./img/maskable_icon_x192.png",
- "./img/maskable_icon_x384.png",
+ "img/maskable_icon_x384.png",
  "./img/maskable_icon_x48.png",
  "./img/maskable_icon_x512.png",
  "./img/maskable_icon_x72.png",
@@ -167,5 +167,6 @@ async function buscaLaRespuestaEnElCache(evt) {
  }
 
 }
+
 
 
