@@ -37,7 +37,7 @@ const ARCHIVOS = [
  "css/estilos.css",
  "css/light-hc.css",
  "css/light-mc.css",
- "./css/light.css",
+ "css/light.css",
  "css/transicion_completa.css",
  "css/transicion_pestanas.css",
  "./img/icono2048.png",
@@ -167,6 +167,7 @@ async function buscaLaRespuestaEnElCache(evt) {
  }
 
 }
+
 
 
 
