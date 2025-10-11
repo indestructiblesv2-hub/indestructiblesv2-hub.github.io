@@ -108,7 +108,6 @@ const ARCHIVOS = [
  "material-tokens/css/theme/dark.css",
  "material-tokens/css/theme/light.css",
  "ungap/custom-elements.js",
- "/"
 ]
 
 // Verifica si el código corre dentro de un service worker.
@@ -165,6 +164,7 @@ async function buscaLaRespuestaEnElCache(evt) {
  }
 
 }
+
 
 
 
