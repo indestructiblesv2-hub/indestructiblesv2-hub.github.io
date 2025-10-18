@@ -12,7 +12,7 @@ export class NavTabFixed extends HTMLElement {
    </a>
 
    <a ${resaltaSiEstasEn(["/ayuda.html"])} href="ayuda.html">
-    <span class="material-symbols-outlined">bottom_navigation</span>
+    <span class="material-symbols-outlined">help</span>
     Ayuda
    </a>`
  }
@@ -21,4 +21,5 @@ export class NavTabFixed extends HTMLElement {
 
 
 customElements.define("nav-tab-fixed", NavTabFixed)
+
 
