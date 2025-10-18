@@ -17,21 +17,13 @@
  <script type="module" src="js/configura.js"></script>
  <link rel="stylesheet" href="css/estilos.css">
  <link rel="stylesheet" href="css/transicion_completa.css">
- <link rel="stylesheet" href="material-tokens/css/baseline.css">
-<link rel="stylesheet" href="lib/css/roboto.css">
-<link rel="stylesheet" href="lib/css/material-symbols-outlined.css">
-<link rel="stylesheet" href="lib/css/md-top-app-bar.css">
-<link rel="stylesheet" href="lib/css/md-filled-button.css">
-<link rel="stylesheet" href="lib/css/md-filled-text-field.css">
-<link rel="stylesheet" href="lib/css/md-menu.css">
-<link rel="stylesheet" href="lib/css/md-ripple.css">
-<link rel="stylesheet" href="lib/css/md-cards.css">
+ <link rel="expect" blocking="render" href="#navtabfixed">
 
 </head>
 
 <body>
 
- <md-top-app-bar>
+<md-top-app-bar adicional="tab" headline="headline">
 
   <h1>Ayuda</h1>
 
@@ -39,10 +31,12 @@
 
  </md-top-app-bar>
 
+ <nav-tab-fixed id="tab"></nav-tab-fixed>
+
  <main>
 
   <ul class="md-list">
-   <li class="md-two-line">
+   <li class="md-three-line">
     <span class="headline">
      Título
     </span>
@@ -50,20 +44,20 @@
      PWA con Material Design sobre aportación de chiste por cada integrante.
     </span>
    </li>
-   <li class="md-two-line">
+   <li class="md-three-line">
     <span class="headline">
      Descripción
     </span>
-    <span class="supporting">
+    <span class="md-three-line">
      Ejemplo de PWA con Material Desing con chistes por cada integrante.
     </span>
    </li>
-   <li class="md-two-line">
+   <li class="md-three-line">
     <span class="headline">
      Autor
     </span>
     <span class="supporting">
-     Los indestructibles: Angel,
+     Angel,
      Missael,
      Marco,
      Antonio,
@@ -71,7 +65,7 @@
      Esther.
     </span>
    </li>
-   <li class="md-two-line">
+   <li class="md-three-line">
     <span class="headline">
      Derechos de autor
     </span>
@@ -110,6 +104,7 @@
 
 
 </html>
+
 
 
 
